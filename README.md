@@ -229,6 +229,7 @@ https://stellar.expert/explorer/testnet/tx/be4425c1c8cd263d23495054c3105de3484b2
 - ✅ Production-Ready Architecture
 - ✅ Documentation & Demo Presentation
 
+
 ---
 
 ## Local Setup
