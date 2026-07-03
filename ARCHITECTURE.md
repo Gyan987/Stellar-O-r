@@ -4,7 +4,7 @@ This document details how the frontend operations map to Soroban smart contract 
 
 ## 1. Frontend-to-Contract Mapping
 
-Every interactive user action on the frontend corresponds to a distinct smart contract method. The table below traces these actions:
+Every interactive user action on the frontend corresponds to a distinct smart contract method. The table below traces these actions:-
 
 | Frontend Feature / Action | Service Method Invoked | Target Contract | Smart Contract Function |
 |---|---|---|---|
