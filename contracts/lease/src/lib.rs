@@ -8,7 +8,7 @@ pub trait ReputationContractTrait {
     fn update_score(env: Env, wallet: Address, action: Symbol) -> ReputationInfo;
 }
 
-// Temporary copy of ReputationInfo structure for type matching
+// Temporary copy of ReputationInfo structure for type matching.
 #[contracttype]
 #[derive(Clone, Debug, Eq, PartialEq)]
 pub struct ReputationInfo {
