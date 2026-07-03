@@ -39,7 +39,7 @@ impl EscrowContract {
     ) {
         tenant.require_auth();
 
-        // Transfer funds from tenant to the contract address
+        // Transfer funds from tenant to the contract address.
         let token_client = token::Client::new(&env, &token_address);
         let contract_address = env.current_contract_address();
         token_client.transfer(&tenant, &contract_address, &deposit_amount);
